@@ -72,4 +72,4 @@ the closest games we found are:
 * Scary Robber - Mastermind Heist
 * Thief Simulator: Sneak & Steal
  
-* we search not only with simillar name to our game but also simillar patterns and rules of our game. those games has a simillar to out game but our game is diffrent while we use speacial features like crafting items and tools to deal with the treat and burglures. the players will prefer our game because he is more exciting and with no second of rest till the victory!
+* we search not only with simillar name to our game but also simillar patterns and rules of our game. those games has a simillar to our game but our game is diffrent while we use speacial features like crafting items and tools to deal with the treat and burglures. the players will prefer our game because he is more exciting and with no second of rest till the victory!
