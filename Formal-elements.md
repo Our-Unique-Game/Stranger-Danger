@@ -40,12 +40,14 @@ Use screenshots to illustrate your answers.
 
 * Traps require specific items to set up.
 * Game alerts players of thieves’ proximity to allow time for setup.
+* the player will have totorial in the beginig of expaining the game.
 
 
 ### 5. Resources
 
 * Trap Materials: Found or combined in rooms.
 * Alerts: Notifications of nearby thieves.
+* the playes has inventory of his tools.
 
 ### 6. Conflicts
 
@@ -55,6 +57,7 @@ Use screenshots to illustrate your answers.
 ### 7. Boundaries
 
 * Game Boundaries: The mansion confines the player, with specific items and threats in each room.
+* the player wont be able exit the house 
 
 
 ### 8. Outcomes
