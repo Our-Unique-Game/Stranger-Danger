@@ -60,11 +60,15 @@ Use screenshots to illustrate your answers.
 ### 8. Outcomes
 
 * Success by preventing entry, failure if thieves bypass traps.
+* this game requires skills and not depends on luck 
 
 ---
 
 ## Market Research
 
-Conduct a search to confirm that similar games don’t already exist. Identify the three most similar games with a link and screenshot for each.
+the closest games we found are:
 
-Explain how your game will differ, be unique, or more appealing compared to the competition, and why players would prefer it. Specify which formal components will highlight your game’s uniqueness against existing games.
+* Catch The Thief: Super Police
+* Scary Robber - Mastermind Heist
+* Thief Simulator: Sneak & Steal
+we search not only with simillar name to our game but also simillar patterns and rules of our game. those games has a simillar to out game but our game is diffrent while we use speacial features like crafting items and tools to deal with the treat and burglures. the players will prefer our game because he is more exciting and with no second of rest till the victory!
