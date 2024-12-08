@@ -8,6 +8,10 @@ public class PlayerMovement : MonoBehaviour
     public Sprite leftSprite; // Sprite for moving left
     public Sprite rightSprite; // Sprite for moving right
 
+    [Header("Sprite Sizes")]
+    [SerializeField] private Vector2 leftSpriteSize = Vector2.one; // Size of the left sprite
+    [SerializeField] private Vector2 rightSpriteSize = Vector2.one; // Size of the right sprite
+
     private Vector2 movement; // Movement vector
     private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer component
     private Rigidbody2D rb; // Reference to the Rigidbody2D component
@@ -51,14 +55,21 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateSprite()
     {
-        // Update the sprite based on the direction of movement
+        // Update the sprite and size based on the direction of movement
         if (movement.x > 0) // Moving right
         {
             spriteRenderer.sprite = rightSprite;
+            spriteRenderer.transform.localScale = new Vector3(rightSpriteSize.x, rightSpriteSize.y, 1);
         }
         else if (movement.x < 0) // Moving left
         {
             spriteRenderer.sprite = leftSprite;
+            spriteRenderer.transform.localScale = new Vector3(leftSpriteSize.x, leftSpriteSize.y, 1);
         }
+    }
+
+    public void EnableMovement(bool canMove)
+    {
+        CanMove = canMove;
     }
 }
