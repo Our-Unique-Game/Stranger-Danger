@@ -3,9 +3,8 @@ using UnityEngine;
 public class TeleportHandler : MonoBehaviour
 {
     [Header("Teleport Settings")]
-    public GameObject destination; // Destination object (target door/ladder)
-
-    private bool isPlayerInRange = false; // Tracks if the player is near this object
+    [SerializeField] public GameObject destination; // Destination object (target door/ladder)
+    [SerializeField] private bool isPlayerInRange = false; // Tracks if the player is near this object
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

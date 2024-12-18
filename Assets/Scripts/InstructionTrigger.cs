@@ -11,9 +11,8 @@ public class InstructionTrigger : MonoBehaviour
     [SerializeField] private GameObject instructionPanel; // Reference to the UI panel
     [SerializeField] private TMP_Text instructionTextUI; // Reference to the TextMeshPro Text element
     [SerializeField] private Button okButton; // "OK" button to dismiss the instructions
-
-    private bool instructionShown = false; // Tracks if the instruction has already been shown
-    private PlayerMovement playerMovement; // Reference to the player movement script
+    [SerializeField] private bool instructionShown = false; // Tracks if the instruction has already been shown
+    [SerializeField] private PlayerMovement playerMovement; // Reference to the player movement script
 
     private void Awake()
     {
